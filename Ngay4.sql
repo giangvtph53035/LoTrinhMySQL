@@ -25,7 +25,7 @@ CREATE TABLE Courses (
     description TEXT,
     price INT CHECK (price >= 0)
 );
-a
+
 INSERT INTO Courses (title, description, price) VALUES
 ('Lập trình Python cơ bản', 'Khoá học giới thiệu về lập trình Python', 1500000),
 ('Thiết kế Web với HTML/CSS', 'Học cách xây dựng giao diện web', 1200000),
