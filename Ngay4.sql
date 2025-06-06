@@ -73,6 +73,8 @@ FROM Students s
 JOIN Enrollments e ON s.student_id = e.student_id
 JOIN Courses c ON e.course_id = c.course_id;
 
+
+SELECT * FROM StudentCourseView;
 -- Câu 7:
 CREATE INDEX idx_course_title ON Courses(title);
 

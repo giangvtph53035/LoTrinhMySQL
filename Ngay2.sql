@@ -3,6 +3,7 @@ CREATE DATABASE Ngay2SQL
 
 USE Ngay2SQL;
 
+
 CREATE TABLE Users (
     user_id INT PRIMARY KEY,
     full_name VARCHAR(100),
@@ -94,6 +95,13 @@ SELECT DISTINCT p.product_id, p.product_name
 FROM Products p
 JOIN OrderItems oi ON p.product_id = oi.product_id
 WHERE p.is_active = 0;
+
+SELECT * FROM Products
+
+SELECT * FROM Orders
+
+SELECT * FROM OrderItems
+
 
 -- Câu 4
 SELECT u.user_id, u.full_name

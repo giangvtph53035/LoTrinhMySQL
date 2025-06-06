@@ -3,7 +3,6 @@ CREATE DATABASE Ngay1SQL
 
 USE Ngay1SQL;
 
-
 CREATE TABLE Customers (
     customer_id INT PRIMARY KEY,
     name VARCHAR(100),

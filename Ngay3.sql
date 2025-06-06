@@ -3,6 +3,8 @@ CREATE DATABASE Ngay3Sql
 
 USE Ngay3Sql;
 
+-- DROP DATABASE IF EXISTS Ngay3Sql;
+
 CREATE TABLE Candidates (
     candidate_id INT PRIMARY KEY,
     full_name VARCHAR(100),
@@ -107,6 +109,8 @@ SELECT candidate_id, job_id, CURRENT_DATE()
 FROM Applications
 WHERE status = 'Accepted';
 
+
+SELECT * FROM ShortlistedCandidates;
 -- Câu 5:
 -- Bước 1: Dựa vào years_exp để phân loại mức độ kinh nghiệm
 SELECT 
